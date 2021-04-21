@@ -1,0 +1,12 @@
+C:\Users\Lu  sir\source\repos\SysExceptionIDAL\bin\Debug\SysExceptionIDAL.dll
+C:\Users\Lu  sir\source\repos\SysExceptionIDAL\bin\Debug\SysExceptionIDAL.pdb
+C:\Users\Lu  sir\source\repos\SysExceptionIDAL\bin\Debug\Models.dll
+C:\Users\Lu  sir\source\repos\SysExceptionIDAL\bin\Debug\EntityFramework.dll
+C:\Users\Lu  sir\source\repos\SysExceptionIDAL\bin\Debug\Models.pdb
+C:\Users\Lu  sir\source\repos\SysExceptionIDAL\bin\Debug\Models.dll.config
+C:\Users\Lu  sir\source\repos\SysExceptionIDAL\bin\Debug\EntityFramework.xml
+C:\Users\Lu  sir\source\repos\SysExceptionIDAL\obj\Debug\SysExceptionIDAL.csprojAssemblyReference.cache
+C:\Users\Lu  sir\source\repos\SysExceptionIDAL\obj\Debug\SysExceptionIDAL.csproj.CoreCompileInputs.cache
+C:\Users\Lu  sir\source\repos\SysExceptionIDAL\obj\Debug\SysExceptionIDAL.csproj.CopyComplete
+C:\Users\Lu  sir\source\repos\SysExceptionIDAL\obj\Debug\SysExceptionIDAL.dll
+C:\Users\Lu  sir\source\repos\SysExceptionIDAL\obj\Debug\SysExceptionIDAL.pdb

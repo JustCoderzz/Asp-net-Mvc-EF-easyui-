@@ -1,0 +1,56 @@
+﻿@model StudentMange.Models.User
+
+<script type="text/javascript">
+    window.onload= function (){
+    var msg='@ViewBag.msg';
+    if (msg == "null") {
+            alert("用户名不存在");
+        } else if (msg == "no") {
+            alert("密码错误");
+        } else {
+
+        };
+    }
+
+</script>
+        
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <div><h1 style=" width:100%;text-align:center;">Sign up</h1></div>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group" >
+            @Html.LabelFor(model => model.Myname, htmlAttributes: new { @class = "control-label col-md-2" ,@style = "align:center" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Myname, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Myname, "必填项", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Passsword, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.PasswordFor(model => model.Passsword, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Passsword, "必填项", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Login" class="btn btn-default" onclick="isok()" />
+                <a href="/SignInOrUp/SignIn" class="btn btn-default">立即注册</a>
+                <label class="text-danger">@ViewBag.msg</label>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

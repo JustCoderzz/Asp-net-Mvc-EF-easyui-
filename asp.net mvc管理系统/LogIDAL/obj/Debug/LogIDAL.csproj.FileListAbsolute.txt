@@ -1,0 +1,12 @@
+C:\Users\Lu  sir\source\repos\LogIDAL\bin\Debug\LogIDAL.dll
+C:\Users\Lu  sir\source\repos\LogIDAL\bin\Debug\LogIDAL.pdb
+C:\Users\Lu  sir\source\repos\LogIDAL\bin\Debug\Models.dll
+C:\Users\Lu  sir\source\repos\LogIDAL\bin\Debug\EntityFramework.dll
+C:\Users\Lu  sir\source\repos\LogIDAL\bin\Debug\Models.pdb
+C:\Users\Lu  sir\source\repos\LogIDAL\bin\Debug\Models.dll.config
+C:\Users\Lu  sir\source\repos\LogIDAL\bin\Debug\EntityFramework.xml
+C:\Users\Lu  sir\source\repos\LogIDAL\obj\Debug\LogIDAL.csprojAssemblyReference.cache
+C:\Users\Lu  sir\source\repos\LogIDAL\obj\Debug\LogIDAL.csproj.CoreCompileInputs.cache
+C:\Users\Lu  sir\source\repos\LogIDAL\obj\Debug\LogIDAL.csproj.CopyComplete
+C:\Users\Lu  sir\source\repos\LogIDAL\obj\Debug\LogIDAL.dll
+C:\Users\Lu  sir\source\repos\LogIDAL\obj\Debug\LogIDAL.pdb

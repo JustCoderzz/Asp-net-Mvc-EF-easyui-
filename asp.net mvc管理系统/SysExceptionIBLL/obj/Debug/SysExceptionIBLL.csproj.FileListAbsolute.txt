@@ -1,0 +1,14 @@
+C:\Users\Lu  sir\source\repos\SysExceptionIBLL\bin\Debug\SysExceptionIBLL.dll
+C:\Users\Lu  sir\source\repos\SysExceptionIBLL\bin\Debug\SysExceptionIBLL.pdb
+C:\Users\Lu  sir\source\repos\SysExceptionIBLL\bin\Debug\Common.dll
+C:\Users\Lu  sir\source\repos\SysExceptionIBLL\bin\Debug\Models.dll
+C:\Users\Lu  sir\source\repos\SysExceptionIBLL\bin\Debug\EntityFramework.dll
+C:\Users\Lu  sir\source\repos\SysExceptionIBLL\bin\Debug\Common.pdb
+C:\Users\Lu  sir\source\repos\SysExceptionIBLL\bin\Debug\Models.pdb
+C:\Users\Lu  sir\source\repos\SysExceptionIBLL\bin\Debug\Models.dll.config
+C:\Users\Lu  sir\source\repos\SysExceptionIBLL\bin\Debug\EntityFramework.xml
+C:\Users\Lu  sir\source\repos\SysExceptionIBLL\obj\Debug\SysExceptionIBLL.csprojAssemblyReference.cache
+C:\Users\Lu  sir\source\repos\SysExceptionIBLL\obj\Debug\SysExceptionIBLL.csproj.CoreCompileInputs.cache
+C:\Users\Lu  sir\source\repos\SysExceptionIBLL\obj\Debug\SysExceptionIBLL.csproj.CopyComplete
+C:\Users\Lu  sir\source\repos\SysExceptionIBLL\obj\Debug\SysExceptionIBLL.dll
+C:\Users\Lu  sir\source\repos\SysExceptionIBLL\obj\Debug\SysExceptionIBLL.pdb

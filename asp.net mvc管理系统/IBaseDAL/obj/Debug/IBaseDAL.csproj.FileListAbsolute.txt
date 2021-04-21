@@ -1,0 +1,15 @@
+C:\Users\Lu  sir\source\repos\IBaseDAL\bin\Debug\IBaseDAL.dll.config
+C:\Users\Lu  sir\source\repos\IBaseDAL\bin\Debug\IBaseDAL.dll
+C:\Users\Lu  sir\source\repos\IBaseDAL\bin\Debug\IBaseDAL.pdb
+C:\Users\Lu  sir\source\repos\IBaseDAL\bin\Debug\EntityFramework.dll
+C:\Users\Lu  sir\source\repos\IBaseDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lu  sir\source\repos\IBaseDAL\bin\Debug\Models.dll
+C:\Users\Lu  sir\source\repos\IBaseDAL\bin\Debug\Models.pdb
+C:\Users\Lu  sir\source\repos\IBaseDAL\bin\Debug\Models.dll.config
+C:\Users\Lu  sir\source\repos\IBaseDAL\bin\Debug\EntityFramework.xml
+C:\Users\Lu  sir\source\repos\IBaseDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lu  sir\source\repos\IBaseDAL\obj\Debug\IBaseDAL.csprojAssemblyReference.cache
+C:\Users\Lu  sir\source\repos\IBaseDAL\obj\Debug\IBaseDAL.csproj.CoreCompileInputs.cache
+C:\Users\Lu  sir\source\repos\IBaseDAL\obj\Debug\IBaseDAL.csproj.CopyComplete
+C:\Users\Lu  sir\source\repos\IBaseDAL\obj\Debug\IBaseDAL.dll
+C:\Users\Lu  sir\source\repos\IBaseDAL\obj\Debug\IBaseDAL.pdb

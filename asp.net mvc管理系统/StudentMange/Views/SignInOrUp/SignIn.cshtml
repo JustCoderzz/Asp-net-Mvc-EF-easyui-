@@ -1,0 +1,96 @@
+﻿@model StudentMange.Models.User
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <div><h1 style=" width:100%;text-align:center;">Sign In</h1></div>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(model => model.Myname, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Myname, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Myname, "必填项", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Passsword, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.PasswordFor(model => model.Passsword, new { htmlAttributes = new { @class = "form-control" ,@id="p1",@value=""} })
+            @Html.ValidationMessageFor(model => model.Passsword, "请填写密码", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Passsword, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <input type="password" class="form-control" id="p2" value="" />
+
+            @Html.ValidationMessageFor(model => model.Passsword, "请再次填写密码", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-10">
+            <div class="control-label col-md-2">验证码：</div>
+            <input id="yzmisok"type="text" class="form-control" value="" />
+
+        </div>
+    </div>
+
+    <input style="width:100px;color:blue;font-style: italic;border: none;height: 100%;" readonly="readonly" type="text" id="yzphoto" value="Q5L4" />
+    <input type="hidden" id="yzm" value="">
+
+    <a href="#" onclick="yzm()">看不清换一张</a>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("返回登录", "Login")
+</div>
+<script type="text/javascript">
+
+    function yzm() {
+        var codeChars = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+            'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
+            'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z');
+        var code = "";
+        for (var i = 0; i < 4; i++) {
+            var charNum = Math.floor(Math.random() * 52);
+            code += codeChars[charNum];
+        }
+        document.getElementById("yzphoto").value = code;
+        document.getElementById("yzm").value = code;
+    }
+
+    $("#p2").blur(function () {
+        var password = $("#Password").val();
+        var passwordAgain = $("#p2").val();
+        if (password == null) {
+            return
+        }
+        if (password != passwordAgain) {
+            alert("两次密码不一致");
+        }
+    })
+    $("#yzmisok").blur(function () {
+        var yzm = $("#yzmisok").val();
+        if (yzm == "") {
+            return 
+        }
+        var yzmresult = $("#yzphoto").val();
+        if(yzm != yzmresult){
+            alert("验证码错误");
+        }
+    })
+
+</script>

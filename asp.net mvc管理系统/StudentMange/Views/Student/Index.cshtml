@@ -1,0 +1,93 @@
+﻿@model IEnumerable<StudentMange.Models.Student>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width" />
+
+    <script type="text/javascript" src="~/Scripts/Zhuye.js">
+
+    </script>
+
+
+    <title></title>
+</head>
+<body class="easyui-layout" fit="true">
+    <h1>你好呀！@ViewBag.username</h1>
+    
+    
+        <div style="margin:20px 0;"></div>
+        
+        <div data-options="region:'north'" style="height: 150px;background-color:aqua" >
+            
+            
+                <img src="http://www.shnu.edu.cn/_upload/site/00/03/3/logo.png" style="position:relative;top:10px" />
+                <ul>
+                    <li style="text-decoration:none ;list-style:none;bottom:30px;float:right;margin-left:30px;position:relative;right:20px"><a href="/SignInOrUp/Login">退出登录</a></li>
+                    <li style="list-style: none;bottom: 30px; float: right; margin-left: 30px; position: relative; right: 20px "><span>当前用户为：@ViewBag.username</span></li>
+                    
+                </ul>
+
+
+           
+        </div>
+            <div data-options="region:'south',split:true" style="height: 50px;">欢迎登录!@ViewBag.username</div>
+
+            <div data-options="region:'west',split:true" title="菜单栏" style="width:300px;">
+                <ul id="tt"></ul>
+            </div>
+            <div  data-options="region:'center',title:'主页',iconCls:'icon-ok'," >
+                <div id="tabs" class="easyui-tabs" data-options="fit:true" style="width:100%">
+                    <div title="home" style="padding:20px;display:none;">
+                        <h1>欢迎登录！这里是教务系统！</h1>
+                    </div>
+                </div>
+            </div>
+            <div id="tb" style="height:auto">
+                <input id="textquery" type="text" />
+                <a id="search" class="easyui-linkbutton" data-options="iconCls:'icon-search',plain:true" onclick="SearchAll()">查找</a>
+                <a id="append" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true">新增</a>
+                <a id="remove" class="easyui-linkbutton" data-options="iconCls:'icon-remove',plain:true" onclick="isOk()">删除</a>
+                <a class="easyui-linkbutton" data-options="iconCls:'icon-save',plain:true" onclick="acceptit()">详细</a>
+                <a id="edit" class="easyui-linkbutton" data-options="iconCls:'icon-undo',plain:true">编辑</a>
+
+
+            </div>
+                
+
+                
+               
+
+
+</body>
+</html>
+<script type="text/javascript">
+    $('#tt').tree({
+        url: '/Student/GetTree'
+    });
+
+    $('#tt').tree({
+        onClick: function (node) {
+            //alert(node.text);  // alert node text property when clicked
+            // add a new tab panel   这里使用exits判断tab是否已经存在
+            if ($('#tabs').tabs('exists', node.text)) {
+                $('#tabs').tabs('select', node.text);
+            }
+            else {
+                $('#tabs').tabs('add', {
+                    title: node.text,
+                    href: node.attributes,
+                    closable: true,
+                });
+            }
+        }
+    });
+</script>
+

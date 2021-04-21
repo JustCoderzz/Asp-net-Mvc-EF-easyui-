@@ -1,0 +1,17 @@
+C:\Users\Lu  sir\source\repos\SysExceptionDAL\bin\Debug\SysExceptionDAL.dll.config
+C:\Users\Lu  sir\source\repos\SysExceptionDAL\bin\Debug\SysExceptionDAL.dll
+C:\Users\Lu  sir\source\repos\SysExceptionDAL\bin\Debug\SysExceptionDAL.pdb
+C:\Users\Lu  sir\source\repos\SysExceptionDAL\bin\Debug\EntityFramework.dll
+C:\Users\Lu  sir\source\repos\SysExceptionDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lu  sir\source\repos\SysExceptionDAL\bin\Debug\Models.dll
+C:\Users\Lu  sir\source\repos\SysExceptionDAL\bin\Debug\SysExceptionIDAL.dll
+C:\Users\Lu  sir\source\repos\SysExceptionDAL\bin\Debug\Models.pdb
+C:\Users\Lu  sir\source\repos\SysExceptionDAL\bin\Debug\Models.dll.config
+C:\Users\Lu  sir\source\repos\SysExceptionDAL\bin\Debug\SysExceptionIDAL.pdb
+C:\Users\Lu  sir\source\repos\SysExceptionDAL\bin\Debug\EntityFramework.xml
+C:\Users\Lu  sir\source\repos\SysExceptionDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lu  sir\source\repos\SysExceptionDAL\obj\Debug\SysExceptionDAL.csprojAssemblyReference.cache
+C:\Users\Lu  sir\source\repos\SysExceptionDAL\obj\Debug\SysExceptionDAL.csproj.CoreCompileInputs.cache
+C:\Users\Lu  sir\source\repos\SysExceptionDAL\obj\Debug\SysExceptionDAL.csproj.CopyComplete
+C:\Users\Lu  sir\source\repos\SysExceptionDAL\obj\Debug\SysExceptionDAL.dll
+C:\Users\Lu  sir\source\repos\SysExceptionDAL\obj\Debug\SysExceptionDAL.pdb

@@ -1,0 +1,14 @@
+C:\Users\Lu  sir\source\repos\LogIBLL\bin\Debug\LogIBLL.dll
+C:\Users\Lu  sir\source\repos\LogIBLL\bin\Debug\LogIBLL.pdb
+C:\Users\Lu  sir\source\repos\LogIBLL\bin\Debug\Common.dll
+C:\Users\Lu  sir\source\repos\LogIBLL\bin\Debug\Models.dll
+C:\Users\Lu  sir\source\repos\LogIBLL\bin\Debug\EntityFramework.dll
+C:\Users\Lu  sir\source\repos\LogIBLL\bin\Debug\Common.pdb
+C:\Users\Lu  sir\source\repos\LogIBLL\bin\Debug\Models.pdb
+C:\Users\Lu  sir\source\repos\LogIBLL\bin\Debug\Models.dll.config
+C:\Users\Lu  sir\source\repos\LogIBLL\bin\Debug\EntityFramework.xml
+C:\Users\Lu  sir\source\repos\LogIBLL\obj\Debug\LogIBLL.csprojAssemblyReference.cache
+C:\Users\Lu  sir\source\repos\LogIBLL\obj\Debug\LogIBLL.csproj.CoreCompileInputs.cache
+C:\Users\Lu  sir\source\repos\LogIBLL\obj\Debug\LogIBLL.csproj.CopyComplete
+C:\Users\Lu  sir\source\repos\LogIBLL\obj\Debug\LogIBLL.dll
+C:\Users\Lu  sir\source\repos\LogIBLL\obj\Debug\LogIBLL.pdb

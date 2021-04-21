@@ -1,0 +1,17 @@
+C:\Users\Lu  sir\source\repos\LogDAL\bin\Debug\LogDAL.dll.config
+C:\Users\Lu  sir\source\repos\LogDAL\bin\Debug\LogDAL.dll
+C:\Users\Lu  sir\source\repos\LogDAL\bin\Debug\LogDAL.pdb
+C:\Users\Lu  sir\source\repos\LogDAL\bin\Debug\EntityFramework.dll
+C:\Users\Lu  sir\source\repos\LogDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lu  sir\source\repos\LogDAL\bin\Debug\LogIDAL.dll
+C:\Users\Lu  sir\source\repos\LogDAL\bin\Debug\Models.dll
+C:\Users\Lu  sir\source\repos\LogDAL\bin\Debug\LogIDAL.pdb
+C:\Users\Lu  sir\source\repos\LogDAL\bin\Debug\Models.pdb
+C:\Users\Lu  sir\source\repos\LogDAL\bin\Debug\Models.dll.config
+C:\Users\Lu  sir\source\repos\LogDAL\bin\Debug\EntityFramework.xml
+C:\Users\Lu  sir\source\repos\LogDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lu  sir\source\repos\LogDAL\obj\Debug\LogDAL.csprojAssemblyReference.cache
+C:\Users\Lu  sir\source\repos\LogDAL\obj\Debug\LogDAL.csproj.CoreCompileInputs.cache
+C:\Users\Lu  sir\source\repos\LogDAL\obj\Debug\LogDAL.csproj.CopyComplete
+C:\Users\Lu  sir\source\repos\LogDAL\obj\Debug\LogDAL.dll
+C:\Users\Lu  sir\source\repos\LogDAL\obj\Debug\LogDAL.pdb

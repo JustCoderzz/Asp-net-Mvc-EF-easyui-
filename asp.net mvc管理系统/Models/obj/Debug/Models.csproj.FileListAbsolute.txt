@@ -1,0 +1,17 @@
+C:\Users\Lu  sir\source\repos\Models\bin\Debug\Models.dll.config
+C:\Users\Lu  sir\source\repos\Models\bin\Debug\Models.dll
+C:\Users\Lu  sir\source\repos\Models\bin\Debug\Models.pdb
+C:\Users\Lu  sir\source\repos\Models\bin\Debug\EntityFramework.dll
+C:\Users\Lu  sir\source\repos\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lu  sir\source\repos\Models\bin\Debug\EntityFramework.xml
+C:\Users\Lu  sir\source\repos\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lu  sir\source\repos\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\Lu  sir\source\repos\Models\obj\Debug\Models.csproj.CopyComplete
+C:\Users\Lu  sir\source\repos\Models\obj\Debug\Models.dll
+C:\Users\Lu  sir\source\repos\Models\obj\Debug\Models.pdb
+C:\Users\Lu  sir\source\repos\Models\obj\Debug\Models.Migrations.InitialCreate.resources
+C:\Users\Lu  sir\source\repos\Models\obj\Debug\Models.csproj.GenerateResource.cache
+C:\Users\Lu  sir\source\repos\Models\obj\Debug\Models.Migrations.first.resources
+C:\Users\Lu  sir\source\repos\Models\obj\Debug\Models.Migrations.Second.resources
+C:\Users\Lu  sir\source\repos\Models\obj\Debug\Models.Migrations.修改了attributes的类型.resources
+C:\Users\Lu  sir\source\repos\Models\obj\Debug\Models.csprojAssemblyReference.cache

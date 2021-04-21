@@ -1,0 +1,15 @@
+C:\Users\Lu  sir\source\repos\TreeIBLL\bin\Debug\TreeIBLL.dll
+C:\Users\Lu  sir\source\repos\TreeIBLL\bin\Debug\TreeIBLL.pdb
+C:\Users\Lu  sir\source\repos\TreeIBLL\bin\Debug\IBaseDAL.dll
+C:\Users\Lu  sir\source\repos\TreeIBLL\bin\Debug\Models.dll
+C:\Users\Lu  sir\source\repos\TreeIBLL\bin\Debug\EntityFramework.dll
+C:\Users\Lu  sir\source\repos\TreeIBLL\bin\Debug\IBaseDAL.pdb
+C:\Users\Lu  sir\source\repos\TreeIBLL\bin\Debug\IBaseDAL.dll.config
+C:\Users\Lu  sir\source\repos\TreeIBLL\bin\Debug\Models.pdb
+C:\Users\Lu  sir\source\repos\TreeIBLL\bin\Debug\Models.dll.config
+C:\Users\Lu  sir\source\repos\TreeIBLL\bin\Debug\EntityFramework.xml
+C:\Users\Lu  sir\source\repos\TreeIBLL\obj\Debug\TreeIBLL.csproj.CoreCompileInputs.cache
+C:\Users\Lu  sir\source\repos\TreeIBLL\obj\Debug\TreeIBLL.csproj.CopyComplete
+C:\Users\Lu  sir\source\repos\TreeIBLL\obj\Debug\TreeIBLL.dll
+C:\Users\Lu  sir\source\repos\TreeIBLL\obj\Debug\TreeIBLL.pdb
+C:\Users\Lu  sir\source\repos\TreeIBLL\obj\Debug\TreeIBLL.csprojAssemblyReference.cache

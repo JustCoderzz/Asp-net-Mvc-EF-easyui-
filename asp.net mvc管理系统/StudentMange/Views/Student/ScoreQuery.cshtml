@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript" src="~/Scripts/Zhuye.js"></script>
+<div id="modalwindow" class="easyui-window" data-options="modal:true,closed:true,minimizable:false,shadow:false"></div>
+
+
+<form id="ff" method="post" action="" target="iframe">
+    <div style="margin-bottom:20px">
+        <select id="xx" style="width:22%;" contenteditable="false" onchange="changeschool()">
+            <option value="0" selected="selected">请选择你的学校---</option>
+        </select>
+        <!--<select class="easyui-combobox" name="cx2" label="" labelPosition="top" style="width:22%;">-->
+        <select id="xy" style="width:22%;" contenteditable="false" onchange="changcollege()">
+            <option value="0">请选择你的学院---</option>
+
+
+        </select>
+        <!-- <select class="easyui-combobox" name="SearchClass" label="" labelPosition="top" style="width:22%;">-->
+        <select id="bj" style="width:22%;" contenteditable="false" name="searchstr">
+            <option value="0">请选择你的班级---</option>
+
+
+        </select>
+        <input type="button" onclick="Searchclass()" name="button" class="easyui-linkbutton" value="查询" data-options="iconCls:'icon-search'" style="width:18%" />
+
+
+    </div>
+</form>
+
+<iframe id="iframe" name="iframe" style="display:none;"></iframe>
+<table id="dg" style="width:100%"></table>
+<script type="text/javascript">
+    $(function () {
+        $(window).resize(function () {
+            $('#dg').datagrid('resize', {
+                width: $(window).width() - 10,
+                height: $(window).height() - 35
+            }).datagrid('resize', {
+                width: $(window).width() - 10,
+                height: $(window).height() - 35
+            });
+        });
+
+    });
+</script>
